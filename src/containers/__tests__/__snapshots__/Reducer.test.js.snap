@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Covering Actions ADD_TODO 1`] = `
+Object {
+  "currentTodo": Object {},
+  "isModalOpen": false,
+  "modalType": "",
+  "todos": Array [
+    Object {
+      "createDate": "2019-09-14T03:45:16.709Z",
+      "description": "Description",
+      "done": "false",
+      "dueDate": "2019-09-14T03:45:16.709Z",
+      "estTime": "2",
+      "id": "2",
+      "tags": Array [
+        "grow",
+        "up",
+      ],
+      "title": "Badwork",
+    },
+  ],
+}
+`;
+
+exports[`Covering Actions CLOSE_MODAL 1`] = `
+Object {
+  "currentTodo": Object {},
+  "isModalOpen": false,
+  "modalType": "",
+  "todos": Array [],
+}
+`;
+
+exports[`Covering Actions GET_TODOS 1`] = `
+Object {
+  "currentTodo": Object {},
+  "isModalOpen": false,
+  "modalType": "",
+  "todos": Object {
+    "createDate": "2019-09-14T03:45:16.709Z",
+    "description": "Description",
+    "done": "false",
+    "dueDate": "2019-09-14T03:45:16.709Z",
+    "estTime": "2",
+    "id": "1",
+    "tags": Array [
+      "grow",
+      "up",
+    ],
+    "title": "Homework",
+  },
+}
+`;
+
+exports[`Covering Actions OPEN_MODAL 1`] = `
+Object {
+  "currentTodo": Object {},
+  "isModalOpen": true,
+  "modalType": "",
+  "todos": Array [],
+}
+`;
+
+exports[`Covering Actions REMOVE_TODOS 1`] = `
+Object {
+  "currentTodo": Object {},
+  "isModalOpen": false,
+  "modalType": "",
+  "todos": Array [],
+}
+`;
+
+exports[`Covering Actions UPDATE_TODO 1`] = `
+Object {
+  "currentTodo": Object {},
+  "isModalOpen": false,
+  "modalType": "",
+  "todos": Array [
+    Object {
+      "createDate": "2019-09-14T03:45:16.709Z",
+      "description": "Description",
+      "done": "false",
+      "dueDate": "2019-09-14T03:45:16.709Z",
+      "estTime": "2",
+      "id": "1",
+      "tags": Array [
+        "grow",
+        "up",
+      ],
+      "title": "Badwork",
+    },
+  ],
+}
+`;

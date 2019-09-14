@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders without crashing given props 1`] = `
+<styled.div>
+  <styled.h1>
+    Todo
+  </styled.h1>
+  <CreateButton
+    onClick={[Function]}
+  >
+    Create
+  </CreateButton>
+</styled.div>
+`;

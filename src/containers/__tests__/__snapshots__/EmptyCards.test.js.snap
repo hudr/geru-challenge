@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EmptyCards /> renders the component 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.img
+      alt="la"
+      src="nodata.svg"
+    />
+    <styled.h3>
+      Your todo list is empty :)
+    </styled.h3>
+  </styled.div>
+</Fragment>
+`;

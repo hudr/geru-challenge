@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> renders without crashing given props 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Dialog))
+    aria-labelledby="responsive-dialog-title"
+    open={false}
+  >
+    <WithStyles(ForwardRef(DialogTitle))
+      id="responsive-dialog-title"
+    >
+      Fill your todo info :)
+    </WithStyles(ForwardRef(DialogTitle))>
+    <WithStyles(ForwardRef(DialogContent))>
+      <WithStyles(ForwardRef(DialogContentText))>
+        Don't forget to add tags to your todos, they're important to filter your data later.
+      </WithStyles(ForwardRef(DialogContentText))>
+      <form
+        autoComplete="off"
+        id="todoinfo"
+        onChange={[Function]}
+        onSubmit={[Function]}
+      >
+        <WithStyles(ForwardRef(TextField))
+          fullWidth={true}
+          label="Title"
+          margin="normal"
+          multiline={true}
+          name="title"
+          placeholder="e.g.: Homework"
+          required={true}
+          value=""
+        />
+        <WithStyles(ForwardRef(TextField))
+          fullWidth={true}
+          label="Description"
+          margin="normal"
+          name="description"
+          placeholder="e.g.: Finish biology research"
+          required={true}
+          value=""
+        />
+        <WithStyles(ForwardRef(TextField))
+          fullWidth={true}
+          label="Estimated Time in days"
+          margin="normal"
+          name="estTime"
+          placeholder="e.g.: 3"
+          required={true}
+          type="number"
+          value=""
+        />
+        <MuiPickersUtilsProvider
+          utils={[Function]}
+        >
+          <PickerWithState
+            allowKeyboardControl={true}
+            ampm={false}
+            animateYearScrolling={false}
+            disablePast={true}
+            format="dd/MM/yyyy HH:mm"
+            fullWidth={true}
+            invalidDateMessage="Invalid Date Format"
+            label="Due date:"
+            maxDate={2100-01-01T00:00:00.000Z}
+            maxDateMessage="Date should not be after maximal date"
+            minDate={1900-01-01T00:00:00.000Z}
+            minDateMessage="Date should not be before minimal date"
+            onChange={[Function]}
+            openTo="date"
+            orientation="portrait"
+            required={true}
+            showTabs={true}
+            showTodayButton={true}
+            value={2019-09-14T20:27:55.762Z}
+            views={
+              Array [
+                "year",
+                "date",
+                "hours",
+                "minutes",
+              ]
+            }
+            wider={true}
+          />
+        </MuiPickersUtilsProvider>
+        <styled.div>
+          <TagsInput
+            addKeys={
+              Array [
+                9,
+                13,
+              ]
+            }
+            addOnBlur={false}
+            addOnPaste={false}
+            className="react-tagsinput"
+            disabled={false}
+            focusedClassName="react-tagsinput--focused"
+            inputProps={Object {}}
+            maxTags={-1}
+            onChange={[Function]}
+            onlyUnique={false}
+            pasteSplit={[Function]}
+            preventSubmit={true}
+            removeKeys={
+              Array [
+                8,
+              ]
+            }
+            renderInput={[Function]}
+            renderLayout={[Function]}
+            renderTag={[Function]}
+            tagDisplayProp={null}
+            tagProps={
+              Object {
+                "className": "react-tagsinput-tag",
+                "classNameRemove": "react-tagsinput-remove",
+              }
+            }
+            validationRegex={/\\.\\*/}
+            value={Array []}
+          />
+        </styled.div>
+      </form>
+    </WithStyles(ForwardRef(DialogContent))>
+    <WithStyles(ForwardRef(DialogActions))>
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        form="todoinfo"
+        type="submit"
+      >
+        Insert
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Button))
+        color="secondary"
+        onClick={[Function]}
+      >
+        Close
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(DialogActions))>
+  </WithStyles(ForwardRef(Dialog))>
+</Fragment>
+`;
