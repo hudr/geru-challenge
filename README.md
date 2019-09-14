@@ -52,6 +52,12 @@ To run this project you need one of two package managers below:
 7. [Jest](https://jestjs.io)
 8. [Enzyme](https://airbnb.io/enzyme)
 
+### Observations:
+
+I have a bad experience using MockAPI when remove tags editing the todo (PUT method).
+I don't know why but you can just add new tags if you edit your todo not remove them.
+If you face this problem when edit your todo try not to blow your mind because front end is doing his job correctly but the API does not :)
+
 #### Questions or suggestions?
 
 Email: hudson.santosr@gmail.com
