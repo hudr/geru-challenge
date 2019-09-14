@@ -1,8 +1,10 @@
 # Geru Challenge
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8824b236-d43c-4dad-9395-e29384d11d5f/deploy-status)](https://app.netlify.com/sites/confident-carson-25f1ba/deploys)
+
 ## Demo
 
-- [Geru Challenge - Netlify](#)
+- [Geru Challenge - Netlify](https://geru-todo.netlify.com)
 
 ## Prerequisites
 
