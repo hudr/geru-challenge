@@ -141,8 +141,8 @@ class Modal extends Component {
           </DialogTitle>
           <DialogContent>
             <DialogContentText>
-              Don't forget to add tags to your todos, they're important to
-              filter your data later.
+              Don't forget to add tags, they're important to remember what you
+              need to do. Tag names can't be the same.
             </DialogContentText>
             <form
               onSubmit={this.handleSubmit.bind(this)}
@@ -180,6 +180,7 @@ class Modal extends Component {
                 placeholder='e.g.: 3'
                 value={estTime}
                 className={classes.textField}
+                InputProps={{ inputProps: { min: 1 } }}
                 margin='normal'
                 fullWidth
                 required
@@ -229,6 +230,11 @@ class Modal extends Component {
               <TagsContainer>
                 <TagsInput
                   value={this.state.tags}
+                  onlyUnique
+                  maxTags={6}
+                  inputProps={{
+                    placeholder: 'Add a tag'
+                  }}
                   onChange={this.handleTagsChange}
                 />
               </TagsContainer>
