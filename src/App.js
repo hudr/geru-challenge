@@ -13,8 +13,7 @@ import TodoCards from './components/TodoCards'
 
 class App extends Component {
   async componentDidMount() {
-    const { getTodos } = this.props
-    await getTodos
+    this.props.getTodos()
   }
 
   render() {
