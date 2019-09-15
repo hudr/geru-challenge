@@ -20,6 +20,7 @@ import {
   CardStatus,
   TagContainer,
   CardTag,
+  CardNoTag,
   StyledFilterContainer,
   StyledForm
 } from './styled'
@@ -101,9 +102,15 @@ class TodoCards extends Component {
                 </div>
               </InformationContainer>
               <TagContainer>
-                {todo.tags.map((tag, i) => (
-                  <CardTag key={i}>#{tag.toLowerCase()}</CardTag>
-                ))}
+                {todo.tags.length === 0 ? (
+                  <CardNoTag>You have no tags for this todo</CardNoTag>
+                ) : (
+                  <Fragment>
+                    {todo.tags.map((tag, i) => (
+                      <CardTag key={i}>#{tag.toLowerCase()}</CardTag>
+                    ))}
+                  </Fragment>
+                )}
               </TagContainer>
             </CardContainer>
           ))}

@@ -129,3 +129,11 @@ export const CardTag = styled.span`
   font-size: 10px;
   font-style: italic;
 `
+
+export const CardNoTag = styled.span`
+  border-radius: 30px;
+  margin-right: 10px;
+  color: #cc0000;
+  font-size: 10px;
+  font-style: italic;
+`
